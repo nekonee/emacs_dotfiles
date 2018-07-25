@@ -1,0 +1,5 @@
+(when (window-system)
+  (set-frame-font "Terminus")
+  (set-face-attribute 'default nil :family "Temrinus" :height 140)
+  (load-theme 'zerodark)
+  )
